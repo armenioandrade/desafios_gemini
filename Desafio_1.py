@@ -1,4 +1,3 @@
-# Desafio 1: Modelando um Livro
 # Crie uma classe chamada Livro.
 
 # Atributos: Deve ter atributos para título, autor, e páginas.

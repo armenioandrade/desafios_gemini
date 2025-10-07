@@ -1,4 +1,3 @@
-# Desafio 5: Formas Geométricas (Herança e Polimorfismo)
 # Crie três classes: Forma, Retangulo e Circulo.
 
 # 1. Classe Base: Forma

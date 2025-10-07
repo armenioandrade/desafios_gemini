@@ -1,4 +1,3 @@
-# Desafio 3: Gerenciamento de Biblioteca (Usando Herança)
 # Crie duas classes: ItemBiblioteca e DVD.
 
 # 1. Classe Base: ItemBiblioteca

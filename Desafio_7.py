@@ -1,4 +1,3 @@
-# Desafio 7: Composição de um Computador
 # Crie três classes: CPU, Memoria e Computador.
 
 # O objetivo é que a classe Computador utilize instâncias das outras classes como seus atributos, em vez de herdar delas.

@@ -1,4 +1,3 @@
-# Desafio 2: Simulação de uma Conta Bancária
 # Crie uma classe chamada ContaBancaria.
 
 # Atributos: Deve ter um atributo para o saldo, que deve ser inicializado como 0 por padrão.

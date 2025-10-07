@@ -1,4 +1,3 @@
-# Desafio 4: Sistema de Funcionários (Herança Simples)
 # Crie duas classes: Pessoa e Funcionario.
 
 # 1. Classe Base: Pessoa

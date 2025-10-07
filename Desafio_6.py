@@ -1,4 +1,3 @@
-# Desafio 6: Veículos (Herança de Múltiplos Níveis)
 # Crie três classes em níveis: Veiculo, Carro e CarroEletrico.
 
 # 1. Classe Base: Veiculo
