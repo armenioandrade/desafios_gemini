@@ -24,3 +24,35 @@
 # Se for válido, atribua o valor a self._idade.
 
 # Função: Permite escrever no atributo (ex: usuario.idade = 30), mas garante que a validação seja aplicada primeiro.
+
+class Usuario():
+
+    def __init__(self, nome, idade_inicial, peso_inicial):
+        self.nome = nome
+        self.idade = idade_inicial
+        self.peso = peso_inicial
+
+    @property
+    def idade(self):
+        return self._idade
+    
+    @idade.setter
+    def idade(self, novo_valor):
+        if novo_valor < 0:
+            raise ValueError("A idade não pode ser negativa")
+        else:
+            self._idade = novo_valor
+    
+    @property
+    def peso(self):
+        return self._peso
+    
+    @peso.setter
+    def peso(self, novo_peso):
+        self._peso = novo_peso # Atribui ao atributo privado '_peso'
+    
+armenio = Usuario('armenio', 35)
+print(armenio.idade)
+armenio.idade = 36
+print(armenio.idade)
+armenio.idade = -5
