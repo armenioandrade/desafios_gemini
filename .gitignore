@@ -1,1 +1,3 @@
 *.txt
+desafio_sistema_arca/rpa_service/venv
+desafio_sistema_arca/rpa_service/db.sqlite3

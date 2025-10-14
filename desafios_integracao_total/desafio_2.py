@@ -145,8 +145,6 @@ class Item():
     def listar_itens(self):
         return f'QUANTIDADE - NOME DO ITEM\n{self.quantidade} | {self.nome_item}'
 
-
-
 class Orcamento():
     def __init__(self, nome_cliente, cpf, nome_funcionario, login, senha, nome_item, valor_item):
         self.cliente = Cliente(nome_cliente, cpf)
